@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Dela Gothic One', cursive;
+}
+h1{
+    font-size: 1.6em;
+}
+div hr{
+    border: none;
+    height: 4px;
+    background-color: #000;
+}
+#conteiner{
+    padding: 20px;
+    background-color: #20b2aa;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px #000000be;
+
+}
+#container > label{
+    font-weight: bolder;
+}
+
+#conteiner > input{
+    background-color: #20b2aa;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.btn1{
+    font-family: 'Dela Gothic One', cursive;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    font-size: 1em;
+    background-color: #000;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.btn1:hover{
+    font-size: 1.2em;
+    transition: 0.2s;
+    padding: 5px;
+}
+#resultado{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #000;
+    height: 40px;
+    padding: 40px;
+    border-radius: 0px 9px 9px 9px;
+    color: #fff;
+    font-size: 0.8em;
+}
